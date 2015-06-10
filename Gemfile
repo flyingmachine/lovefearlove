@@ -14,4 +14,3 @@ gem "pygments.rb", "0.6.0"
 gem "guard"
 gem "guard-livereload"
 gem "guard-nanoc"
-
