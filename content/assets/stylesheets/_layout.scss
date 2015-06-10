@@ -7,8 +7,7 @@ $susy: (
   container-position: center
 );
 
-
-#main {
+.container {
   @include container;
 }
 
@@ -16,8 +15,4 @@ $susy: (
   @include padding-leader(4);
   @include padding-trailer(2);
   @include trailer(2);
-}
-
-.title {
-  margin-right: 4rem;
 }
