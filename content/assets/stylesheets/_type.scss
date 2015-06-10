@@ -19,7 +19,7 @@ $ms-up4: $ms-up3 * $ms-scale;
 
 .title {
   font-family: $title-family;
-  @include adjust-font-size-to($ms-up3, 1);
+  @include adjust-font-size-to($ms-up4, 2);
 }
 .subtitle {
   font-family: $title-family;

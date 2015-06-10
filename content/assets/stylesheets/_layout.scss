@@ -15,5 +15,6 @@ $susy: (
 .header {
   @include padding-leader(4);
   @include padding-trailer(2);
-  @include trailer(1);
+  @include trailer(2);
 }
+
