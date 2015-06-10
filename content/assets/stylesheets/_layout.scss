@@ -13,7 +13,7 @@ $susy: (
 }
 
 .header {
-  @include padding-leader(3);
-  @include padding-trailer(3);
+  @include padding-leader(4);
+  @include padding-trailer(2);
   @include trailer(1);
 }
