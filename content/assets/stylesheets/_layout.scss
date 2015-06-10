@@ -13,5 +13,7 @@ $susy: (
 }
 
 .header {
-  padding: emRhythm(2) 0;
+  @include padding-leader(3, $ms-up3);
+  @include padding-trailer(3, $ms-up3);
+  @include trailer(1, $ms-up3);
 }
