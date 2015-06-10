@@ -21,6 +21,11 @@ $ms-up4: $ms-up3 * $ms-scale;
   font-family: $title-family;
   @include adjust-font-size-to($ms-up4, 2);
 }
+
+.fear {
+  font-family: Symbola;
+}
+
 .subtitle {
   font-family: $title-family;
 }
