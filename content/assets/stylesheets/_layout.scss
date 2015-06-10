@@ -1,0 +1,17 @@
+$susy: (
+  columns: 12,
+  column-width: 4em,
+  gutters: 1/4,
+  math: fluid,
+  output: static,
+  container-position: center
+);
+
+
+#main {
+  @include container;
+}
+
+.header {
+  padding: emRhythm(2) 0;
+}

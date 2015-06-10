@@ -1,4 +1,10 @@
+@import "compass-setup";
 @import "meyer-reset";
-@import "typesettings";
+@import "susy";
+@import "breakpoint";
+
+@import "type";
+@import "layout";
+@import "theme";
 
 @import "home";

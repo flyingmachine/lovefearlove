@@ -1,6 +1,7 @@
 source 'http://rubygems.org'
 
-gem "susy", "2.1.3"
+gem "susy", "2.2.1"
+gem "compass-core"
 gem "breakpoint"
 gem "haml"
 gem "sass", "3.4.9"

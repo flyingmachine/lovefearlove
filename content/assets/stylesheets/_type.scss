@@ -1,0 +1,17 @@
+// uses compass stuff
+
+$base-font-size: 16px;
+$base-line-height: 24px;
+@include establish-baseline;
+
+$sans-family: "Fjalla One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif-family: Gentium Book Basic, Palatino Linotype, Book Antiqua, Palatino, serif;
+
+
+body {
+  font-family: $serif-family;
+}
+
+p {
+  @include trailer;
+}
