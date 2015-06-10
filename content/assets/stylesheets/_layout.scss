@@ -18,6 +18,10 @@ $susy: (
 }
 
 .logoy {
-//  @include padding-trailer(.5);
-//  @include padding-leader(.5);
+  height: 3em;
+}
+
+.fear {
+  position: relative;
+  top: -.08em;
 }
