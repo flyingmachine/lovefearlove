@@ -19,6 +19,30 @@ body {
   color: #8cbeb2;
 }
 
-.title {
-
+.logoy .container {
+  position: relative;
+  &:before {
+    display: block;
+    position: absolute;
+    width: 12em;
+    height: 7em;
+    top: -7.5em;
+    left: -.5em;
+    content: "";
+    background: #f06060;
+    border-bottom: .5em solid #904040;
+  }
+  &:after {
+    display: block;
+    position: absolute;
+    width: 12em;
+    height: 1em;
+    top: 3em;
+    left: -.5em;
+    content: "";
+    background: #f06060;
+    border-top: .5em solid #904040;
+  }
+//  @include padding-trailer(.5);
+//  @include padding-leader(.5);
 }
