@@ -37,3 +37,9 @@ body {
 p {
   @include trailer;
 }
+
+h1 {
+  font-family: $title-family;
+  @include adjust-font-size-to($ms-up3, 1);
+  @include trailer(1, $ms-up3);
+}
