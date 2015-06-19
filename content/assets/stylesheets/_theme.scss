@@ -10,9 +10,14 @@ body {
 
 .header {
   background: $paper;
-  color: $orange;
   text-align: left;
   border-bottom: .25em solid $red;
+  a {
+    color: $orange;
+    &:hover, &:visited {
+      color: $orange;
+    }
+  }
 }
 
 .logoy .container {
@@ -46,3 +51,4 @@ body {
   color: #5c4b51;
   border-top: .25em solid #529282;
 }
+

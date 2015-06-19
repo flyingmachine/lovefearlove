@@ -38,8 +38,11 @@ p {
   @include trailer;
 }
 
-h1 {
+h1, h2, h3 {
   font-family: $title-family;
+}
+
+h1 {
   @include adjust-font-size-to($ms-up3, 1);
   @include trailer(1, $ms-up3);
 }
@@ -56,4 +59,10 @@ h3 {
 a {
   text-decoration: none;
   color: $red;
+  &:visited {
+    color: $red;
+  }
+  &:hover {
+    color: $dark-teal;
+  }
 }
