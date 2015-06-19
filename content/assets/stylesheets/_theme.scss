@@ -1,21 +1,18 @@
 body {
-  background: #f2f0db;  
-  color: #46453f;
+  background: $tan;
+  color: $dark-plum;
 }
 
 .logoy {
-  background: #5c4b51;
+  background: $plum;
   text-align: left;  
 }
 
 .header {
-  background: #f9f8ee;
-  color: #f3b562;
+  background: $paper;
+  color: $orange;
   text-align: left;
-}
-
-.fear {
-  color: #8cbeb2;
+  border-bottom: .25em solid $red;
 }
 
 .logoy .container {
@@ -28,8 +25,8 @@ body {
     top: -7.5em;
     left: -.5em;
     content: "";
-    background: #f06060;
-    border-bottom: .5em solid #904040;
+    background: $red;
+    border-bottom: .5em solid $iron;
   }
   &:after {
     display: block;
@@ -45,7 +42,6 @@ body {
 }
 
 .footer {
-  background: #5c4b51;
-  background: #8cbeb2;
+  background: $teal;
   color: #5c4b51;
 }

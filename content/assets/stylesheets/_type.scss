@@ -43,3 +43,17 @@ h1 {
   @include adjust-font-size-to($ms-up3, 1);
   @include trailer(1, $ms-up3);
 }
+
+
+h2 {
+  @include adjust-font-size-to($ms-up2, 1);
+}
+
+h3 {
+  @include adjust-font-size-to($ms-up1, 1);
+}
+
+a {
+  text-decoration: none;
+  color: $red;
+}

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>A Brand New nanoc Site - <%= @item[:title] %></title>
-    <link rel="stylesheet" href="stylesheets/main.css">
+    <link rel="stylesheet" href="/assets/stylesheets/main.css">
     <link href='http://fonts.googleapis.com/css?family=BenchNine:300,400,700|Bad+Script|Shadows+Into+Light|Pathway+Gothic+One|Architects+Daughter|Amatic+SC:400,700|Courgette|Amaranth:400,400italic,700,700italic|Changa+One:400,400italic|Covered+By+Your+Grace|Fjalla+One|Cardo:400,400italic,700' rel='stylesheet' type='text/css'>
 
     <!-- you don't need to keep this, but it's cool for stats! -->
@@ -15,7 +15,7 @@
         <div class="container">
           <div class="title">
             love
-            <span class="fear">&#x1f628;</span>
+            <span class="fear"><img src="/assets/images/layout/fear.png" /></span>
             love
           </div>
         </div>
@@ -23,10 +23,14 @@
     </div>
     <div class="container content">
       <div class="main">
+        <% if article?(@item) %>
+        <h1><%= @item[:title] %></h1>
+        <div class="date"><%= format_date(@item[:created_at]) %></div>
+        <% end %>
         <%= yield %>
       </div>
       <div class="secondary">
-        secondary
+        A blog about love
       </div>
     </div>
     <div class="footer">
